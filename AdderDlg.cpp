@@ -191,6 +191,6 @@ void CAdderDlg::OnBnClickedAbout()
 
 void CAboutDlg::OnBnClickedLicense()
 {
-	system("start https://wtfpl2.com/");
-	MessageBox(_T("本软件根据 WTFPL 2 授权。"), _T("许可证说明"), MB_ICONINFORMATION);
+	system("start https://creativecommons.org/publicdomain/zero/1.0/");
+	MessageBox(_T("本软件根据 CC0-1.0 授权。"), _T("许可证说明"), MB_ICONINFORMATION);
 }
